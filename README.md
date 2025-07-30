@@ -40,6 +40,8 @@ This bot is configured to monitor and copy trades.
 
 ### 1. Download app from Releases
 
+Rename `Default.env` to `.env`
+
 ### 2. Environment Configuration
 
 Edit `.env` file:
