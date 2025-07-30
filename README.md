@@ -92,10 +92,6 @@ Recommended minimum: 0.1 SOL for testing
 
 ### Test Mode (Recommended First)
 
-```bash
-npm start
-```
-
 The bot will:
 1. ✅ Validate configuration
 2. ✅ Connect to Solana network
