@@ -46,22 +46,25 @@ Edit `.env` file:
 
 ```env
 # Get free API key from https://helius.dev
-SOLANA_RPC=https://mainnet.helius-rpc.com/?api-key=YOUR_HELIUS_API_KEY
+# Solana RPC endpoint (free Helius endpoint)
+# SOLANA_RPC=https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY
+SOLANA_RPC=https://api.mainnet-beta.solana.com
 
-# Your wallet private key (Base58 string format)
+# Your wallet secret key
 SECRET_KEY=
 
-# Target wallet
+# Target wallet to copy (the wallet you specified)
 TARGET_WALLET=
 
-# Trading configuration
-MIN_SOL_AMOUNT=      # Minimum target trade to copy
-COPY_SOL_AMOUNT=     # Amount we spend per copy trade
-MAX_SOL_AMOUNT=      # Maximum we'll spend
+MIN_SOL_AMOUNT=
+COPY_SOL_AMOUNT=
+MAX_SOL_AMOUNT=
 
-# Safety settings
-TEST_MODE=false            # Set to false for real trading
-POLLING_INTERVAL=500     # Check for new transactions every 0.5 seconds
+# Test mode - set to false for real trading
+TEST_MODE=false
+
+# Polling interval in milliseconds
+POLLING_INTERVAL=500
 ```
 
 ### 3. Get Your Private Key
