@@ -1,3 +1,8 @@
+<img width="979" height="370" alt="image" src="https://github.com/user-attachments/assets/43369374-69b6-430e-b066-7b18fb2c0565" />
+<img width="281" height="242" alt="image" src="https://github.com/user-attachments/assets/51d044fc-04fe-4530-8767-df85dba06fea" />
+
+
+
 # solana-pumpfun-bonk-copytrader
 Solana Pump.fun &amp; BONK Copy Trading Bot – Automatically copy any wallet’s trades on the hottest Solana tokens. Fast, secure, fully configurable, with free Helius RPC support. Closed source, real-time, and beginner friendly.
 
